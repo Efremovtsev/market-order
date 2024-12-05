@@ -1,0 +1,40 @@
+.orderForm {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
+
+.toggleSwitch {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+
+  label {
+    cursor: pointer;
+  }
+}
+
+.inputGroup {
+  margin-bottom: 1rem;
+
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+  }
+}
+
+.calculatedAmount {
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}

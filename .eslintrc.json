@@ -1,0 +1,49 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": [
+    "@typescript-eslint",
+    "import",
+    "jsx-a11y",
+    "react",
+    "react-hooks",
+    "prettier",
+    "sonarjs",
+    "unicorn",
+    "unused-imports"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/display-name": "off",
+    "jsx-a11y/media-has-caption": "off",
+    "unicorn/filename-case": "off"
+  }
+}
